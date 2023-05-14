@@ -1,0 +1,34 @@
+Stari Non-finale:
+ q0 - {'0': 'q1', '1': 'q2'}
+ q1 - {'0': 'q0', '1': 'q3'}
+ q2 - {'0': 'q5', '1': 'q4'}
+ q3 - {'0': 'q5', '1': 'q4'}
+ q4 - {'0': 'q4', '1': 'q4'}
+
+Stari Finale:
+ q5 - {'0': 'q5', '1': 'q4'}
+
+Cuvinte:
+0 1 
+
+Automatul minimal: 
+ State: 
+   - name = q0
+   - final = 0
+   - transitions = {'0': 'q1', '1': 'q2'})
+
+State: 
+   - name = q1
+   - final = 0
+   - transitions = {'0': 'q0', '1': 'q3'})
+
+State: 
+   - name = q2
+   - final = 0
+   - transitions = {'0': 'q5', '1': 'q4'})
+
+State: 
+   - name = q3
+   - final = 0
+   - transitions = {'0': 'q5', '1': 'q4'})
+
